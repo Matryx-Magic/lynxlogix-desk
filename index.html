@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LynxLogix.NET · Signal Desk</title>
+  <meta name="description" content="Human-gated crypto signal desk for LynxLogix.NET. Paper-first Coinbase and Kraken. No withdrawal keys." />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <div class="mark">Lynx<span>Logix</span>.NET</div>
+      <div>
+        <a href="#designs">Designs</a>
+        <a href="#gate">Gate</a>
+        <a href="#desk">Paywall</a>
+        <a href="#owner">Owner</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <header class="hero">
+      <div class="kicker">Daily desk · 7 Oct 2026 · Paper first</div>
+      <h1>Three ways to run the book.<br /><em>One human still signs.</em></h1>
+      <p class="lede">LynxLogix.NET is the crypto hallway of the house. TradingView or CryptoHopper can propose. Coinbase and Kraken can preview. Phantom and Kraken Wallet stay watch-only. Nothing sells itself.</p>
+      <div class="row">
+        <a class="btn solid" href="#designs">Choose a design</a>
+        <a class="btn" href="#desk">Open the seat</a>
+      </div>
+    </header>
+    <section id="designs">
+      <h2>Three turnkey designs</h2>
+      <p class="note">10x here means ten specialized roles, not a promised return. Click a card. The gate below records your paper approval and refuses live routing.</p>
+      <div class="grid">
+        <article class="card" data-design="Relay"><div class="tag">Design A · Relay</div><h3>Signal relay</h3><p>TradingView alert posts JSON to the desk. One bot checks symbol, size cap, and spread. You approve. Coinbase preview or Kraken read-only quote returns. No order without the second click.</p></article>
+        <article class="card" data-design="Ensemble"><div class="tag">Design B · Ensemble</div><h3>Ten-role book</h3><p>Scanner, regime, signal, risk, sizer, venue router, execution, exit, treasury, audit. CryptoHopper may feed the signal role. Treasury never holds a withdraw key. Audit writes every reject.</p></article>
+        <article class="card" data-design="Mirror"><div class="tag">Design C · Mirror</div><h3>Hopper mirror</h3><p>CryptoHopper keeps the exchange connection you already trust. Lynx only mirrors the proposal, scores it, and asks you. Phantom and Kraken Wallet are cold addresses, displayed, never signed.</p></article>
+      </div>
+      <div id="gate" class="panel gate"><div class="tag">Human gate</div><h3 id="gateTitle">None selected</h3><p>Paper mode records the choice on this browser. Live mode is hard-disabled. Withdrawal, Transfer, and Deposit permissions are out of scope on every venue.</p><div class="row"><button id="approveBtn" class="solid" type="button">Approve paper</button><button id="liveBtn" type="button" disabled>Live stays locked</button></div><p id="gateStatus"></p></div>
+    </section>
+    <section id="flow"><h2>Workflow that does not drift</h2><table><thead><tr><th>Step</th><th>Who</th><th>Stop rule</th></tr></thead><tbody><tr><td>1. Signal</td><td>TradingView webhook or CryptoHopper signal</td><td>Missing symbol, side, or size dies here</td></tr><tr><td>2. Score</td><td>Risk role</td><td>Spread, daily loss, or open-order cap fails closed</td></tr><tr><td>3. Gate</td><td>You</td><td>No approval, no preview</td></tr><tr><td>4. Preview</td><td>Coinbase orders preview, Kraken quote</td><td>Trade-only key. No Transfer. No Withdraw</td></tr><tr><td>5. Audit</td><td>Narrator role</td><td>Every reject is a row, not a feeling</td></tr></tbody></table></section>
+    <section id="desk"><h2>Seat, not a tip jar</h2><p class="note" id="lockNote">Brief stays locked until a receipt is recorded. This build stores intent. Card capture waits on Stripe or Coinbase Commerce.</p><div class="grid"><article class="card"><div class="tag">1% desk</div><h3>Principal · $4,800 / mo</h3><p>Private signal review, venue map, and a written reject log. Built for a family office that wants a human on the book, not a black box.</p><button data-tier="principal" type="button">Request principal</button></article><article class="card"><div class="tag">Mangasm path</div><h3>Seat · $480 / mo</h3><p>Includes a Mangasm.app house credit note on the receipt. Sales path: desk seat, then a pointed link into Mangasm rather than a second brand story.</p><button data-tier="seat" class="solid" type="button">Request seat</button></article><article class="card"><div class="tag">Donation</div><h3>House · $108</h3><p>One-time support. Receipt names Mangasm.app as the runway beneficiary. Not an investment. Not a token.</p><button data-tier="donation" type="button">Record donation</button></article></div><div id="paywall" class="panel gate"><div class="tag">Paywall</div><h3 id="tierName">Seat</h3><form id="payForm"><input id="payEmail" type="email" placeholder="Email for the receipt" required /><div class="row"><button class="solid" type="submit">Record intent</button><button id="closePay" type="button">Close</button></div></form><p id="payStatus"></p></div><div id="locked" class="panel" hidden><div class="tag">Unlocked brief</div><h3>What the seat actually buys</h3><p>A daily three-design review, a paper ticket, and a reject log. It does not buy a 10x claim. Cross-sell: <a href="https://mangasm.app">Mangasm.app</a>. Sister halls: <a href="https://coexist.llc">Coexist.llc</a>, <a href="https://ganesh.guru">Ganesh.Guru</a>, <a href="https://lynxlogix.ai">LynxLogix.AI</a>.</p></div></section>
+    <section id="owner"><h2>Owner</h2><div class="grid"><article class="panel"><div class="tag">Bio</div><h3>MatryxX</h3><p>Virtual lab, bio-engineer frame, public GitHub gothamgodzilla. House marks: LynxLogix.AI, LynxLogix.NET, Coexist, Ganesh.Guru, Mangasm.app. The desk is software and a gate, not a fund.</p></article><article class="panel"><div class="tag">IP, scenario only</div><h3>Not an appraisal</h3><p>Replaceable assets: domain set, this desk, signal schema, brand hallway. No audited revenue on file. Do not read the table as a valuation opinion.</p></article><article class="panel"><div class="tag">Contact</div><h3>Desk</h3><p>desk@lynxlogix.net · GitHub gothamgodzilla · Lab note lives on lynxlogix.ai. Coinbase portfolio linked for read. No order placed from this page.</p></article></div><table><thead><tr><th>Scenario</th><th>Assumption</th><th>MAR</th><th>ARR</th></tr></thead><tbody><tr><td>Empty</td><td>No seats sold</td><td>$0</td><td>$0</td></tr><tr><td>Seat book</td><td>12 seats at $480</td><td>$5,760</td><td>$69,120</td></tr><tr><td>Principal mix</td><td>12 seats + 3 principals at $4,800</td><td>$20,160</td><td>$241,920</td></tr><tr><td>House cut</td><td>10% of seat ARR noted toward Mangasm.app</td><td>$576</td><td>$6,912</td></tr></tbody></table></section>
+    <section id="contact"><h2>Contact</h2><form id="contactForm" class="panel"><input id="cName" placeholder="Name" /><input id="cEmail" type="email" placeholder="Email" required /><textarea id="cNote" rows="4" placeholder="Which design, which venue, paper only."></textarea><button class="solid" type="submit">Hold message</button><p id="cStatus"></p></form></section>
+    <footer>LynxLogix.NET is not a broker, fund, or offer of securities. Crypto trading can lose the entire stake. This page does not place orders. Keys, if added later, stay trade-only and IP-locked. No withdrawal permission, ever, on a bot key.</footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
